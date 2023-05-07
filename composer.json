@@ -1,12 +1,12 @@
 {
-    "name": "outmart/laravel-reward-points",
+    "name": "storeways/laravel-reward-points",
     "description": "Grant and manage reward points for your customers.",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "laravel",
         "ecommerce",
-        "outmart",
+        "storeways",
         "reward-points",
         "module"
     ],
@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "OutMart\\Laravel\\RewardPoints\\": "src/"
+            "StoreWays\\Laravel\\RewardPoints\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "OutMart\\Laravel\\RewardPoints\\RewardPointsServiceProvider"
+                "StoreWays\\Laravel\\RewardPoints\\RewardPointsServiceProvider"
             ]
         }
     },

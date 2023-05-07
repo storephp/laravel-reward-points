@@ -1,9 +1,9 @@
 <?php
 
-namespace OutMart\Laravel\RewardPoints;
+namespace StoreWays\Laravel\RewardPoints;
 
 use Carbon\Carbon;
-use OutMart\Laravel\RewardPoints\Models\RewardPoint;
+use StoreWays\Laravel\RewardPoints\Models\RewardPoint;
 
 trait HasRewardable
 {
@@ -12,7 +12,7 @@ trait HasRewardable
      *
      * @param int $points
      * @param string $comment
-     * @return int \OutMart\Laravel\RewardPoints\HasRewardable
+     * @return int \StoreWays\Laravel\RewardPoints\HasRewardable
      */
     public function addPoints(int $points, string $comment = null, $expired_at = null)
     {
@@ -31,14 +31,14 @@ trait HasRewardable
      *
      * @param int $points
      * @param string $comment
-     * @return int \OutMart\Laravel\RewardPoints\HasRewardable
+     * @return int \StoreWays\Laravel\RewardPoints\HasRewardable
      */
     public function withdrawPoints(int $points, string $comment = null)
     {
         $available_points = $this->totalPoints();
 
         if ($available_points < $points) {
-            throw new \Exception('OutMart: You cannot deduct more points than that already exists.');
+            throw new \Exception('StoreWays: You cannot deduct more points than that already exists.');
         }
 
         $this->points()->create([

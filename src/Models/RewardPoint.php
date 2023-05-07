@@ -1,11 +1,11 @@
 <?php
 
-namespace OutMart\Laravel\RewardPoints\Models;
+namespace StoreWays\Laravel\RewardPoints\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Reward Points Model of OutMart
+ * Reward Points Model of StoreWays
  * 
  * @property integer $id
  * @property string $type

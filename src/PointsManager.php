@@ -1,8 +1,8 @@
 <?php
 
-namespace OutMart\Laravel\RewardPoints;
+namespace StoreWays\Laravel\RewardPoints;
 
-use OutMart\Laravel\RewardPoints\Models\RewardPoint;
+use StoreWays\Laravel\RewardPoints\Models\RewardPoint;
 
 class PointsManager
 {

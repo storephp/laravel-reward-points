@@ -6,7 +6,7 @@ Grant and manage reward points for your customers.
 
 ## Documentation
 
-You can find the detailed documentation here in [Reward Points Documentation](https://outmart.github.io/packages/laravel/reward-points/).
+You can find the detailed documentation here in [Reward Points Documentation](https://storeways.github.io/packages/laravel/reward-points/).
 
 ## Contributing
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace OutMart\Laravel\RewardPoints;
+namespace StoreWays\Laravel\RewardPoints;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -29,8 +29,8 @@ class RewardPointsServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../database/migrations/' => database_path('migrations/outmart'),
-            ], ['outmart-migrations', 'outmart-migrations-reward-points']);
+                __DIR__ . '/../database/migrations/' => database_path('migrations/storeways'),
+            ], ['storeways-migrations', 'storeways-migrations-reward-points']);
         }
     }
 }

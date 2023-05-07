@@ -1,6 +1,6 @@
 <?php
 
-namespace OutMart\Laravel\RewardPoints\Facades;
+namespace StoreWays\Laravel\RewardPoints\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
